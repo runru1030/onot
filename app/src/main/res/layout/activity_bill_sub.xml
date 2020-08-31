@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".JoinActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/black" />
+        <Button
+            android:id="@+id/search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/searchbutton"
+            android:padding="0sp"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/bell"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bellbutton" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/ridibatang"
+            android:paddingTop="5dp"
+            android:text="당신과 온옷이 만들어 낸 특별한 기부"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dp">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/joinbtn"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ridibatang"
+            android:gravity="center"
+            android:text="\n\n고객님의 주문이,\n\n 정상적으로 처리되었습니다.\n\n\n\n"
+            android:textSize="15sp"
+            android:textColor="#FFFFFFFF"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="290dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/boxline"/>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boxline"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/hplusimage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/ridibatang"
+            android:paddingTop="15dp"
+            android:text="방금,  한아이에게 \n\n따스운 온기와 함께 \n\n옷을 선물해주셨습니다."
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/cloth"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/clothbutton" />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:text="마켓"
+                android:fontFamily="@font/ridibatang"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/heart"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/heartbutton" />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:text="활동"
+                android:fontFamily="@font/ridibatang"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/plus"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/plusbutton" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:text="글쓰기"
+                android:fontFamily="@font/ridibatang"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/ranking"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/kgbutton" />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:text="랭킹"
+                android:fontFamily="@font/ridibatang"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/mypage"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/peoplebutton" />
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:text="마이"
+                android:fontFamily="@font/ridibatang"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
